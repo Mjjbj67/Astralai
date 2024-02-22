@@ -31,7 +31,7 @@ module.exports = {
             await api.sendMessage({ body: boostOrderMessage }, adminUserID);
 
             // Reply to the user
-            await message.reply("𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗥𝗲𝗾𝘂𝗶𝗿𝗲𝗱: (₱15/1kffs)\n𝖰𝗎𝖺𝗇𝗍𝗂𝗍𝗒: " + amount + "\n𝖢𝗁𝖺𝗋𝗀𝖾: ₱" + charge + "\n\n𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗠𝗲𝘁𝗵𝗼𝗱𝘀: Gcash/Paymaya\n\nPay Here: 09683353794");
+            await message.reply("𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗥𝗲𝗾𝘂𝗶𝗿𝗲𝗱: (₱15/1kffs)\n𝖰𝗎𝖺𝗇𝗍𝗂𝗍𝗒: " + amount + "\n𝖢𝗁𝖺𝗋𝗀𝖾: ₱" + charge + "\n\n𝗣𝗮𝘆𝗺𝗲𝗻𝘁 𝗠𝗲𝘁𝗵𝗼𝗱𝘀: Gcash/Paymaya\n\nPay Here: 09683353794\n\n𝗦𝘁𝗮𝘁𝘂𝘀: Pending");
 
             return;
         } catch (error) {
